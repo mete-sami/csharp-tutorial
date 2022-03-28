@@ -45,45 +45,51 @@ namespace HelloCSharp
             //Console.ReadLine();
             #endregion
 
+            #region soru3
+
             //Dışarıdan girilen nota göre EĞER 0-45 arasındaysa "BU ÇOCUK OKUMAZ" 45-55 arasındaysa "AKMASA DA DAMLIYOR 55-70 "ZEKİ AMA ÇALIŞMIYOR" 70-85 ARASI 4 ,85-100 ARASI MAŞALLAH,
             //Eğer NOT 0-100 DEĞİLSE LÜTFEN GEÇERLİ BİR NOT GİRİNİZ
 
-            #region soru3
 
-            Console.WriteLine("Lütfen notunuzu giriniz");
-            int not = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Lütfen notunuzu giriniz");
+            //int not = Convert.ToInt32(Console.ReadLine());
 
-            if(not >= 0 && not < 45)
-            {
-                Console.WriteLine("OKUMAZ TORNACIYA GÖNDER!");
-            }
-            else if(not >= 45 && not < 55)
-            {
-                Console.WriteLine("AKMASA DA DAMLIYOR");
-            }
-            else if(not >= 55 && not < 70)
-            {
-                Console.WriteLine("ORTA ŞEKER");
-            }
-            else if(not >= 70 && not < 85)
-            {
-                Console.WriteLine("İYİ ARKADAŞ");
-            }
-            else if(not >= 85 && not < 100)
-            {
-                Console.WriteLine("EN İYİSİ");
-            }
-            else
-            {
-                Console.WriteLine("Lütfen düzgün bir not giriniz");
-            }
+            //if(not >= 0 && not < 45)
+            //{
+            //    Console.WriteLine("OKUMAZ TORNACIYA GÖNDER!");
+            //}
+            //else if(not >= 45 && not < 55)
+            //{
+            //    Console.WriteLine("AKMASA DA DAMLIYOR");
+            //}
+            //else if(not >= 55 && not < 70)
+            //{
+            //    Console.WriteLine("ORTA ŞEKER");
+            //}
+            //else if(not >= 70 && not < 85)
+            //{
+            //    Console.WriteLine("İYİ ARKADAŞ");
+            //}
+            //else if(not >= 85 && not < 100)
+            //{
+            //    Console.WriteLine("EN İYİSİ");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Lütfen düzgün bir not giriniz");
+            //}
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
 
             #endregion
 
 
+#region soru4
+
+            //Kullanıcı dışarıdan bir sayı girsin. 0 dan o kullanıcının girdiği sayıya kadar olan sayıların toplamını ekrana yaz. 
+
+#endregion
         }
     }
 }
