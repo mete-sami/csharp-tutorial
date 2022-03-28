@@ -85,11 +85,54 @@ namespace HelloCSharp
             #endregion
 
 
-#region soru4
+            #region soru4
 
-            //Kullanıcı dışarıdan bir sayı girsin. 0 dan o kullanıcının girdiği sayıya kadar olan sayıların toplamını ekrana yaz. 
+            //Kullanıcı dışarıdan bir sayı girsin. 0 dan o kullanıcının girdiği sayıya kadar olan sayıların toplamını ekrana yaz.
 
-#endregion
+            //Console.WriteLine("Lütfen bir sayı giriniz");
+
+            //int sayi = Convert.ToInt32(Console.ReadLine());
+
+            //int toplam = 0;
+
+            //for (int i = 0; i < sayi; i++)
+            //{
+            //    toplam = toplam + i;
+            //}
+
+            //Console.WriteLine(toplam);
+
+            //Console.ReadLine();
+
+            #endregion
+
+            #region soru5
+            //Kullanıcının dışarıdan girdiği sayıya kadar olan ÇİFT SAYILARI toplayıp ekrana yazdır
+
+
+            Console.WriteLine("Lütfen bir sayı giriniz");
+
+            int sayi = Convert.ToInt32(Console.ReadLine());
+
+            int toplam = 0;
+
+            for (int i = 0; i <= sayi; i++)
+            {
+                if(i % 2 == 0)
+                {
+                    toplam = toplam + i;
+                }
+            }
+
+            Console.WriteLine(toplam);
+
+            Console.ReadLine();
+
+
+
+            #endregion
+
+
         }
     }
 }
