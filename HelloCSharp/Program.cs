@@ -110,27 +110,45 @@ namespace HelloCSharp
             //Kullanıcının dışarıdan girdiği sayıya kadar olan ÇİFT SAYILARI toplayıp ekrana yazdır
 
 
-            Console.WriteLine("Lütfen bir sayı giriniz");
+            //Console.WriteLine("Lütfen bir sayı giriniz");
 
-            int sayi = Convert.ToInt32(Console.ReadLine());
+            //int sayi = Convert.ToInt32(Console.ReadLine());
 
-            int toplam = 0;
+            //int toplam = 0;
 
-            for (int i = 0; i <= sayi; i++)
-            {
-                if(i % 2 == 0)
-                {
-                    toplam = toplam + i;
-                }
-            }
+            //for (int i = 0; i <= sayi; i++)
+            //{
+            //    if(i % 2 == 0)
+            //    {
+            //        toplam = toplam + i;
+            //    }
+            //}
 
-            Console.WriteLine(toplam);
+            //Console.WriteLine(toplam);
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
 
 
             #endregion
+
+            #region soru6
+            //Kullanıcının dışarıdan girdiği kelimedeki harfleri ekrana yaz
+
+            //Console.WriteLine("Lütfen bir kelime giriniz");
+
+            //string kelime = Console.ReadLine();
+
+            //for (int i = 0; i < kelime.Length; i++)
+            //{
+            //    Console.WriteLine(kelime[i]);
+            //}
+
+            //Console.ReadLine();
+
+            #endregion
+
+
 
 
         }
