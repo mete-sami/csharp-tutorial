@@ -6,6 +6,8 @@
 5) 1 den 100 e kadar olan 2 ve 3 e bölünebilen kaç adet sayı var?
 6) Kullanıcı dışarıdan bir sayı girsin. Örneğin 3 girdiğinde 3*3 lük bir kare oluştursun ( Toplamda 9 yıldız olacak. )
 
+7) Kullanıcı ekrandan iki sayı girecek. Çarpma operatörü kullanmadan iki sayıyı çarp ekrana yaz.
+
 
 
 * .Net Framework Nedir?

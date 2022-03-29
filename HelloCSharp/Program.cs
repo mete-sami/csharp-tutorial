@@ -70,22 +70,22 @@ namespace HelloCSharp
 
             // Yol - 2 ** Tek forla yapılacak
 
-            int sayac = 0;
-            for (int i = 0; i < sayi * sayi; i++)
-            {
-                Console.Write("*");
+            //int sayac = 0;
+            //for (int i = 0; i < sayi * sayi; i++)
+            //{
+            //    Console.Write("*");
 
-                sayac++;
+            //    sayac++;
 
-                if (sayac == sayi)
-                {
-                    Console.Write("\n");
-                    sayac = 0;
-                }
+            //    if (sayac == sayi)
+            //    {
+            //        Console.Write("\n");
+            //        sayac = 0;
+            //    }
 
-            }
+            //}
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
             #endregion
 
