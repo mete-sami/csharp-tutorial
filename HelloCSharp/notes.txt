@@ -1,0 +1,7 @@
+﻿19) Kullanıcı dışarıdan bir sayı girecek o sayı ekranda oluşacak üçgenin TABANI olacak.
+
+    *
+   * *
+  * * *
+* * * * *
+
