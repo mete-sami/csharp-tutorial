@@ -10,3 +10,4 @@
 
 * .Net Framework Nedir?
 * .Net Core Nedir?
+* Convert ve ParseInt arasındaki fark nedir?

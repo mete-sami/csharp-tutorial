@@ -8,6 +8,48 @@ namespace HelloCSharp
         static void Main(string[] args)
         {
 
+            //1) Kullanıcı ekrandan iki sayı girecek. Bu aralıktaki sayıların toplamını ekrana yazdır.
+            #region Ödev Soru -1
+            //Console.WriteLine("Lütfen ilk sayıyı giriniz");
+            //int sayi1 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("Lütfen ikinci sayıyı giriniz");
+            //int sayi2 = Convert.ToInt32(Console.ReadLine());
+
+
+            //int toplam = 0;
+            //for (int i = sayi1 + 1; i < sayi2; i++)
+            //{
+            //    toplam = toplam + i;
+            //}
+
+            //Console.WriteLine(toplam);
+            //Console.ReadLine();
+            #endregion
+
+
+            //5) 1 den 100 e kadar olan 2 ve 3 e bölünebilen kaç adet sayı var?
+            #region Soru-5
+
+            int sayac = 0;
+            for (int i = 1; i < 100; i++)
+            {
+                if (i % 2 == 0 && i % 3 == 0)
+                {
+                    sayac++;
+                }
+            }
+
+            Console.WriteLine(sayac);
+            Console.ReadLine();
+
+
+            #endregion
+
+
+
+
+
             #region soru1
             //Dışarıdan girilen iki sayının toplamını veren program.
 
@@ -83,7 +125,6 @@ namespace HelloCSharp
 
 
             #endregion
-
 
             #region soru4
 
