@@ -337,6 +337,8 @@ namespace HelloCSharp
             #endregion
 
 
+            //DİZİLER
+
             int[] sayidizi = new int[5];
             sayidizi[0] = -10;
             sayidizi[1] = 4;
@@ -360,6 +362,18 @@ namespace HelloCSharp
 
             Console.ReadLine();
 
+  
+
+            //
+            int[] myNum = { 3, 6, 7777, 89, 120, 202 };
+            int toplam = 0;
+            for (int i = 0; i < myNum.Length; i++)
+            {
+                toplam += myNum[i];
+            }
+            Console.WriteLine(toplam);
+
+            Console.ReadLine();
 
         }
 

@@ -26,7 +26,7 @@
 5  4  3  2  1
 
 12) Dışarıdan 3 tane sayı girilecek ve program en küçük sayıyı bulacak.
-
+13) 5 elemanlı bir sayı dizisi tanımla. Dizinin elemanları toplamını ekrana yazdır
 
 
 * .Net Framework Nedir?
