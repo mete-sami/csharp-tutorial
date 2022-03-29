@@ -27,8 +27,14 @@
 
 12) Dışarıdan 3 tane sayı girilecek ve program en küçük sayıyı bulacak.
 13) 5 elemanlı bir sayı dizisi tanımla. Dizinin elemanları toplamını ekrana yazdır
-
+14) N elemanlı bir dizideki pozitif elemanların ortalamasını bulan program.
+15) N elemanlı bir dizideki en küçük elemanı ve bu elemanın adresini (index no) bulan program.
+16) Elemanlı bir sayı dizi sayı dizisi tanımla. En küçük sayıyı ekrana yazdır.
 
 * .Net Framework Nedir?
 * .Net Core Nedir?
 * Convert ve ParseInt arasındaki fark nedir?
+
+
+**  //0 ile 100 arasında rastgele bir bulunacak sayı GENERATE edilir. ( ÜRETİLİR ) Kullanıcı console a bir sayı girerek tahminde bulunur. Kullanıcının 10 hakkı var. Kullanıcı sayıyı girdiğinde sistem ("Tahminden yüksek bir sayı girdiniz") veya ("Tahminden alçak bir sayı girdiniz") diye yönlendirir.
+

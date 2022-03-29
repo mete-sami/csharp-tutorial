@@ -339,41 +339,97 @@ namespace HelloCSharp
 
             //DİZİLER
 
-            int[] sayidizi = new int[5];
-            sayidizi[0] = -10;
-            sayidizi[1] = 4;
-            sayidizi[2] = 2;
-            sayidizi[3] = 11;
-            sayidizi[4] = 6;
+            //int[] sayidizi = new int[5];
+            //sayidizi[0] = -10;
+            //sayidizi[1] = 4;
+            //sayidizi[2] = 2;
+            //sayidizi[3] = 11;
+            //sayidizi[4] = 6;
 
 
-            string[] isimDizi = new string[4];
-            isimDizi[0] = "Çağatay";
-            isimDizi[1] = "Korhan";
-            isimDizi[2] = "Burçin";
-            isimDizi[3] = "Aykut";
+            //string[] isimDizi = new string[4];
+            //isimDizi[0] = "Çağatay";
+            //isimDizi[1] = "Korhan";
+            //isimDizi[2] = "Burçin";
+            //isimDizi[3] = "Aykut";
 
             //isim dizisinin elemanlarını tek tek console a yaz!
 
-            for (int i = 0; i < isimDizi.Length; i++)
+            //for (int i = 0; i < isimDizi.Length; i++)
+            //{
+            //    Console.WriteLine(isimDizi[i]);
+            //}
+
+            //Console.ReadLine();
+
+            //int[] myNum = { 3, 6, 7777, 89, 120, 202 };
+            //int toplam = 0;
+            //for (int i = 0; i < myNum.Length; i++)
+            //{
+            //    toplam += myNum[i];
+            //}
+            //Console.WriteLine(toplam);
+            //Console.ReadLine();
+
+
+
+            //Random rnd = new Random();
+            //int rastgeleSayi = rnd.Next(1, 200);
+
+            //Console.WriteLine(rastgeleSayi);
+            //Console.ReadLine();
+
+            //for (int i = 0; i < 10; i++)
+            //{
+
+            //    Random rnd = new Random();
+            //    int rastgeleSayi = rnd.Next(1, 200);
+
+            //    Console.WriteLine(rastgeleSayi);
+
+            //}
+
+            //Console.ReadLine();
+
+            //Sayı bulma oyunu
+            //0 ile 100 arasında rastgele bir bulunacak sayı GENERATE edilir. ( ÜRETİLİR ) Kullanıcı console a bir sayı girerek tahminde bulunur. Kullanıcının 10 hakkı var. Kullanıcı sayıyı girdiğinde sistem ("Tahminden yüksek bir sayı girdiniz") veya ("Tahminden alçak bir sayı girdiniz") diye yönlendirir.
+
+            Random rnd = new Random();
+            int rastgeleSayi = rnd.Next(1, 100);
+
+
+            int sayac = 10;
+            bool cevapDogruMu = false;
+
+            while(sayac > 0)
             {
-                Console.WriteLine(isimDizi[i]);
+                Console.WriteLine("Tahmin gir!");
+                int tahmin = Convert.ToInt32(Console.ReadLine());
+
+                if (tahmin == rastgeleSayi)
+                {
+                    Console.WriteLine("EVREKA!!");
+                    cevapDogruMu = true;
+                }
+                else if (tahmin < rastgeleSayi)
+                {
+                    Console.WriteLine("Tahminden alçak sayı girdiniz");
+                    sayac--;
+
+                }
+                else
+                {
+                    Console.WriteLine("Tahminden yüksek sayı girdiniz");
+                    sayac--;
+
+                }
             }
+            
 
-            Console.ReadLine();
+            
 
-  
 
-            //
-            int[] myNum = { 3, 6, 7777, 89, 120, 202 };
-            int toplam = 0;
-            for (int i = 0; i < myNum.Length; i++)
-            {
-                toplam += myNum[i];
-            }
-            Console.WriteLine(toplam);
 
-            Console.ReadLine();
 
         }
 
