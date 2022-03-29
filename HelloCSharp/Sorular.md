@@ -9,6 +9,9 @@
 7) Kullanıcı ekrandan iki sayı girecek. Çarpma operatörü kullanmadan iki sayıyı çarp ekrana yaz.
 
 
+8) Dışarıdan girilen 3 tane sayının ortalamasını bulan program.
+9) Dışarıdan girilen bir N sayısına kadar olan sayıların karelerinin toplamını hesaplayan program.
+
 
 * .Net Framework Nedir?
 * .Net Core Nedir?

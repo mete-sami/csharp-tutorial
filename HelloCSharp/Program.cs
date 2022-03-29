@@ -52,8 +52,8 @@ namespace HelloCSharp
 
             //Yol - 1
 
-            Console.WriteLine("Lütfen bir sayı giriniz");
-            int sayi = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Lütfen bir sayı giriniz");
+            //int sayi = Convert.ToInt32(Console.ReadLine());
 
 
             //for (int i = 0; i < sayi; i++)
@@ -89,6 +89,30 @@ namespace HelloCSharp
 
             #endregion
 
+
+            //7 Kullanıcı ekrandan iki sayı girecek. Çarpma operatörü kullanmadan iki sayıyı çarp ekrana yaz.
+            #region soru-7
+
+            Console.WriteLine("Lütfen ilk sayıyı giriniz");
+            int sayi1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Lütfen ikinci sayıyı giriniz");
+            int sayi2 = Convert.ToInt32(Console.ReadLine());
+
+            //3 * 5
+            // 5 + 5 + 5
+            // 3 + 3 + 3 + 3 + 3
+
+            int toplam = 0;
+            for (int i = 0; i < sayi1; i++)
+            {
+                toplam = toplam + sayi2;
+            }
+
+            Console.WriteLine(toplam);
+            Console.ReadLine();
+
+            #endregion
 
 
             #region soru1
