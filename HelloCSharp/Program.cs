@@ -29,24 +29,43 @@ namespace HelloCSharp
 
 
             //5) 1 den 100 e kadar olan 2 ve 3 e bölünebilen kaç adet sayı var?
-            #region Soru-5
+            #region Ödev Soru-5
 
-            int sayac = 0;
-            for (int i = 1; i < 100; i++)
-            {
-                if (i % 2 == 0 && i % 3 == 0)
-                {
-                    sayac++;
-                }
-            }
+            //int sayac = 0;
+            //for (int i = 1; i < 100; i++)
+            //{
+            //    if (i % 2 == 0 && i % 3 == 0)
+            //    {
+            //        sayac++;
+            //    }
+            //}
 
-            Console.WriteLine(sayac);
-            Console.ReadLine();
+            //Console.WriteLine(sayac);
+            //Console.ReadLine();
 
 
             #endregion
 
+            //6) Kullanıcı dışarıdan bir sayı girsin. Örneğin 3 girdiğinde 3*3 lük bir kare oluştursun ( Toplamda 9 yıldız olacak.)
 
+            #region Soru-6
+
+            Console.WriteLine("Lütfen bir sayı giriniz");
+            int sayi = Convert.ToInt32(Console.ReadLine());
+
+
+            for (int i = 0; i < sayi; i++)
+            {
+                for (int j = 1; j < sayi; j++)
+                {
+                    Console.Write("*");
+                }
+
+                Console.WriteLine("*");
+            }
+
+            Console.ReadLine();
+            #endregion
 
 
 
