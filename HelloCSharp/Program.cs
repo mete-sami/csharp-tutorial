@@ -103,14 +103,42 @@ namespace HelloCSharp
             // 5 + 5 + 5
             // 3 + 3 + 3 + 3 + 3
 
+            //int toplam = 0;
+            //for (int i = 0; i < sayi1; i++)
+            //{
+            //    toplam = toplam + sayi2;
+            //}
+
+            //Console.WriteLine("Sonuç: " + toplam);
+            //Console.ReadLine();
+
+
+            //2. yol Mehmet
+            //int toplam = 0;
+            //int j = 1;
+            //do
+            //{
+            //    toplam += sayi1;
+            //    j++;
+            //} while (j <= sayi2);
+
+
+
+            //Console.WriteLine("Sonuç : " + toplam);
+            //Console.ReadKey();
+
+            //3. yol
+
             int toplam = 0;
-            for (int i = 0; i < sayi1; i++)
+            int sayac = 0;
+            while (sayac < sayi1)
             {
                 toplam = toplam + sayi2;
+                sayac++;
             }
 
-            Console.WriteLine(toplam);
-            Console.ReadLine();
+            Console.WriteLine("Sonuç : " + toplam);
+            Console.ReadKey();
 
             #endregion
 
