@@ -395,34 +395,34 @@ namespace HelloCSharp
             //Sayı bulma oyunu
             //0 ile 100 arasında rastgele bir bulunacak sayı GENERATE edilir. ( ÜRETİLİR ) Kullanıcı console a bir sayı girerek tahminde bulunur. Kullanıcının 10 hakkı var. Kullanıcı sayıyı girdiğinde sistem ("Tahminden yüksek bir sayı girdiniz") veya ("Tahminden alçak bir sayı girdiniz") diye yönlendirir.
 
-            Random rnd = new Random();
-            int rastgeleSayi = rnd.Next(1, 100);
+            //Random rnd = new Random();
+            //int rastgeleSayi = rnd.Next(1, 100);
 
 
-            int sayac = 10;
+            //int sayac = 10;
 
 
-            while (sayac > 0)
-            {
-                Console.WriteLine("Tahmin gir!");
-                int tahmin = Convert.ToInt32(Console.ReadLine());
+            //while (sayac > 0)
+            //{
+            //    Console.WriteLine("Tahmin gir!");
+            //    int tahmin = Convert.ToInt32(Console.ReadLine());
 
-                if (tahmin == rastgeleSayi)
-                {
-                    Console.WriteLine("EVREKA!!");
-                }
-                else if (tahmin < rastgeleSayi)
-                {
-                    Console.WriteLine("Tahminden alçak sayı girdiniz");
-                    sayac--;
+            //    if (tahmin == rastgeleSayi)
+            //    {
+            //        Console.WriteLine("EVREKA!!");
+            //    }
+            //    else if (tahmin < rastgeleSayi)
+            //    {
+            //        Console.WriteLine("Tahminden alçak sayı girdiniz");
+            //        sayac--;
 
-                }
-                else
-                {
-                    Console.WriteLine("Tahminden yüksek sayı girdiniz");
-                    sayac--;
-                }
-            }
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine("Tahminden yüksek sayı girdiniz");
+            //        sayac--;
+            //    }
+            //}
 
             #endregion
 
@@ -451,6 +451,45 @@ namespace HelloCSharp
 
             //}
 
+            #endregion
+
+
+            //Sayısal loto 1-49 arasında 6 tane rastgele sayının seçilmesiyle oluşur.
+
+            #region sayısal loto
+            //6 elemanlı boş bir int dizi oluştur
+            // 6 kez dönen bir for yaz.
+            // for her döndüğünde random bir sayı oluşturup diziye atasın.
+            //for bittikten sonra dizinin elemanlarını başka bir for la ekrana yazdır. Sayısal lotoyu göreyim
+
+            //int[] sayidizi = new int[6];
+
+            //for (int i = 0; i < 6; i++)
+            //{
+            //    Random rnd = new Random();
+            //    int rastgele = rnd.Next(1, 50);
+
+            //    //Üretilen sayı dizide varsa DÖNGÜ BİR KEZ DAHA DÖNSÜN
+
+            //    bool sayiVarMi = false;
+            //    for (int j = 0; j < sayidizi.Length; j++)
+            //    {
+            //        if (sayidizi[j] == rastgele)
+            //        {
+            //            sayiVarMi = true;
+            //        }
+            //    }
+
+            //    if(sayiVarMi == true)
+            //    {
+            //        i--;
+            //    }
+            //    else
+            //    {
+            //        sayidizi[i] = rastgele;
+            //    }
+
+            //}
             #endregion
 
 

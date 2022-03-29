@@ -30,6 +30,14 @@
 14) N elemanlı bir dizideki pozitif elemanların ortalamasını bulan program.
 15) N elemanlı bir dizideki en küçük elemanı ve bu elemanın adresini (index no) bulan program.
 16) Elemanlı bir sayı dizi sayı dizisi tanımla. En küçük sayıyı ekrana yazdır.
+17) 5 elemanlı bir sayı dizisi oluştur. For döngüsüyle dönerek sadece pozitif olanları ekrana yazdır.
+18) 5 elemanlı bir sayı dizisi oluştur. En büyük elemanın index numarasını ekrana yazdır.
+19) Kullanıcı dışarıdan bir sayı girecek o sayı ekranda oluşacak üçgenin TABANI olacak.
+
+    *
+   * *
+  * * *
+* * * * *
 
 * .Net Framework Nedir?
 * .Net Core Nedir?
