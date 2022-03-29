@@ -144,21 +144,56 @@ namespace HelloCSharp
 
             //9) Dışarıdan girilen bir N sayısına kadar olan sayıların karelerinin toplamını hesaplayan program.
 
-            Console.WriteLine("Lütfen bir sayı giriniz");
+            #region soru 9
+            //Console.WriteLine("Lütfen bir sayı giriniz");
 
-            int sayi = Convert.ToInt32(Console.ReadLine());
+            //int sayi = Convert.ToInt32(Console.ReadLine());
 
-            int toplam = 0;
+            //int toplam = 0;
 
-            for (int i = 0; i < sayi; i++)
-            {
-                //toplam = toplam + (i * i);
-                toplam += (i * i);
+            //for (int i = 0; i < sayi; i++)
+            //{
+            //    //toplam = toplam + (i * i);
+            //    toplam += (i * i);
 
-            }
+            //}
 
-            Console.WriteLine("Sonuç: " + toplam);
-            Console.ReadLine();
+            //Console.WriteLine("Sonuç: " + toplam);
+            //Console.ReadLine();
+            #endregion
+
+
+            //10) Kullanıcı dışarıdan bir fiyat girecek. Girdiği fiyatın KDV li hali (%18 i) ekrana yazacak FAKAT kullanıcının girdiği fiyat 200 üzerindeyse %10 indirim uygulayıp KDV yi öyle hesapla.
+
+
+            //Soru - 12  Dışarıdan 3 tane sayı girilecek ve program en küçük sayıyı bulacak.
+
+
+            #region soru - 12
+
+            //Console.WriteLine("Lütfen ilk sayıyı giriniz");
+            //int x = Convert.ToInt32(Console.ReadLine());
+
+
+            //Console.WriteLine("Lütfen ikinci sayıyı giriniz");
+            //int y = Convert.ToInt32(Console.ReadLine());
+
+            //Console.WriteLine("Lütfen üçüncü sayıyı giriniz");
+            //int z = Convert.ToInt32(Console.ReadLine());
+
+
+            //if(x < y && x < z)
+            //{
+            //    Console.WriteLine("En küçük sayı x ");
+            //}
+            //else if (y < z && y < x)
+            //{
+            //    Console.WriteLine("En küçük sayı y ");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("En küçük sayı z ");
+            #endregion
 
 
 
@@ -302,8 +337,40 @@ namespace HelloCSharp
             #endregion
 
 
+            int[] sayidizi = new int[5];
+            sayidizi[0] = -10;
+            sayidizi[1] = 4;
+            sayidizi[2] = 2;
+            sayidizi[3] = 11;
+            sayidizi[4] = 6;
+
+
+            string[] isimDizi = new string[4];
+            isimDizi[0] = "Çağatay";
+            isimDizi[1] = "Korhan";
+            isimDizi[2] = "Burçin";
+            isimDizi[3] = "Aykut";
+
+            //isim dizisinin elemanlarını tek tek console a yaz!
+
+            for (int i = 0; i < isimDizi.Length; i++)
+            {
+                Console.WriteLine(isimDizi[i]);
+            }
+
+            Console.ReadLine();
 
 
         }
+
+
+
+
+
+
+
+
+
     }
-}
+    }
+

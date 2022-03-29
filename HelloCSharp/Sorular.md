@@ -11,6 +11,21 @@
 
 8) Dışarıdan girilen 3 tane sayının ortalamasını bulan program.
 9) Dışarıdan girilen bir N sayısına kadar olan sayıların karelerinin toplamını hesaplayan program.
+10) Kullanıcı dışarıdan bir fiyat girecek. Girdiği fiyatın KDV li hali (%18 i) ekrana yazacak FAKAT kullanıcının girdiği fiyat 200 üzerindeyse %10 indirim uygulayıp KDV yi öyle hesapla.
+
+11) Aşağıdaki formu ekrana basan program.  
+
+1	 
+
+2  1 
+
+3  2  1 
+
+4  3  2  1 
+
+5  4  3  2  1
+
+12) Dışarıdan 3 tane sayı girilecek ve program en küçük sayıyı bulacak.
 
 
 
