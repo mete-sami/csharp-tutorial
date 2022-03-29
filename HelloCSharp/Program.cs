@@ -93,11 +93,11 @@ namespace HelloCSharp
             //7 Kullanıcı ekrandan iki sayı girecek. Çarpma operatörü kullanmadan iki sayıyı çarp ekrana yaz.
             #region soru-7
 
-            Console.WriteLine("Lütfen ilk sayıyı giriniz");
-            int sayi1 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Lütfen ilk sayıyı giriniz");
+            //int sayi1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Lütfen ikinci sayıyı giriniz");
-            int sayi2 = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Lütfen ikinci sayıyı giriniz");
+            //int sayi2 = Convert.ToInt32(Console.ReadLine());
 
             //3 * 5
             // 5 + 5 + 5
@@ -129,18 +129,37 @@ namespace HelloCSharp
 
             //3. yol
 
-            int toplam = 0;
-            int sayac = 0;
-            while (sayac < sayi1)
-            {
-                toplam = toplam + sayi2;
-                sayac++;
-            }
+            //int toplam = 0;
+            //int sayac = 0;
+            //while (sayac < sayi1)
+            //{
+            //    toplam = toplam + sayi2;
+            //    sayac++;
+            //}
 
-            Console.WriteLine("Sonuç : " + toplam);
-            Console.ReadKey();
+            //Console.WriteLine("Sonuç : " + toplam);
+            //Console.ReadKey();
 
             #endregion
+
+            //9) Dışarıdan girilen bir N sayısına kadar olan sayıların karelerinin toplamını hesaplayan program.
+
+            Console.WriteLine("Lütfen bir sayı giriniz");
+
+            int sayi = Convert.ToInt32(Console.ReadLine());
+
+            int toplam = 0;
+
+            for (int i = 0; i < sayi; i++)
+            {
+                //toplam = toplam + (i * i);
+                toplam += (i * i);
+
+            }
+
+            Console.WriteLine("Sonuç: " + toplam);
+            Console.ReadLine();
+
 
 
             #region soru1

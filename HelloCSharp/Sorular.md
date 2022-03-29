@@ -13,6 +13,7 @@
 9) Dışarıdan girilen bir N sayısına kadar olan sayıların karelerinin toplamını hesaplayan program.
 
 
+
 * .Net Framework Nedir?
 * .Net Core Nedir?
 * Convert ve ParseInt arasındaki fark nedir?
