@@ -50,21 +50,43 @@ namespace HelloCSharp
 
             #region Soru-6
 
+            //Yol - 1
+
             Console.WriteLine("Lütfen bir sayı giriniz");
             int sayi = Convert.ToInt32(Console.ReadLine());
 
 
-            for (int i = 0; i < sayi; i++)
+            //for (int i = 0; i < sayi; i++)
+            //{
+            //    for (int j = 1; j < sayi; j++)
+            //    {
+            //        Console.Write("*");
+            //    }
+
+            //    Console.WriteLine("*");
+            //}
+
+            //Console.ReadLine();
+
+            // Yol - 2 ** Tek forla yapılacak
+
+            int sayac = 0;
+            for (int i = 0; i < sayi * sayi; i++)
             {
-                for (int j = 1; j < sayi; j++)
+                Console.Write("*");
+
+                sayac++;
+
+                if (sayac == sayi)
                 {
-                    Console.Write("*");
+                    Console.Write("\n");
+                    sayac = 0;
                 }
 
-                Console.WriteLine("*");
             }
 
             Console.ReadLine();
+
             #endregion
 
 
