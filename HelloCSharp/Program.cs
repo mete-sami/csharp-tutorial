@@ -391,6 +391,7 @@ namespace HelloCSharp
 
             //Console.ReadLine();
 
+            #region sayı bulma oyunu
             //Sayı bulma oyunu
             //0 ile 100 arasında rastgele bir bulunacak sayı GENERATE edilir. ( ÜRETİLİR ) Kullanıcı console a bir sayı girerek tahminde bulunur. Kullanıcının 10 hakkı var. Kullanıcı sayıyı girdiğinde sistem ("Tahminden yüksek bir sayı girdiniz") veya ("Tahminden alçak bir sayı girdiniz") diye yönlendirir.
 
@@ -399,9 +400,9 @@ namespace HelloCSharp
 
 
             int sayac = 10;
-            bool cevapDogruMu = false;
 
-            while(sayac > 0)
+
+            while (sayac > 0)
             {
                 Console.WriteLine("Tahmin gir!");
                 int tahmin = Convert.ToInt32(Console.ReadLine());
@@ -409,7 +410,6 @@ namespace HelloCSharp
                 if (tahmin == rastgeleSayi)
                 {
                     Console.WriteLine("EVREKA!!");
-                    cevapDogruMu = true;
                 }
                 else if (tahmin < rastgeleSayi)
                 {
@@ -421,14 +421,37 @@ namespace HelloCSharp
                 {
                     Console.WriteLine("Tahminden yüksek sayı girdiniz");
                     sayac--;
-
                 }
             }
-            
 
-            
+            #endregion
 
+            #region en küçük sayı bulma
+            //7 elemanlı bir sayı dizi sayı dizisi tanımla. En küçük sayıyı ekrana yazdır.
+            //int[] sayidizi = new int[7];
+            //sayidizi[0] = 20;
+            //sayidizi[1] = 10;
+            //sayidizi[2] = -5;
+            //sayidizi[3] = 9780;
+            //sayidizi[4] = 2002;
+            //sayidizi[5] = 0;
+            //sayidizi[6] = 10;
 
+            //for döngüsü ile bu dizinin en küçük elemanını bul
+
+            //int minimumValue = sayidizi[0];
+
+            //for (int i = 0; i < sayidizi.Length; i++)
+            //{
+
+            //    if(sayidizi[i] < minimumValue)
+            //    {
+            //        minimumValue = sayidizi[i];
+            //    }
+
+            //}
+
+            #endregion
 
 
         }
