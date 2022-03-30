@@ -50,7 +50,7 @@ namespace HelloCSharp
 
 
 
-
+            #region soru-1
             //1) Dizinin tüm elemanlarını büyült ve başka bir diziye at.
             //string[] newNames = new string[6];
 
@@ -59,8 +59,10 @@ namespace HelloCSharp
             //    newNames[i] = isimler[i].ToUpper();
             //}
 
+            #endregion
 
 
+            #region soru-2
             //2) Dizide 4 harf veya altında kaç isim var?
 
             //int sayac = 0;
@@ -75,8 +77,10 @@ namespace HelloCSharp
 
             //Console.WriteLine(sayac);
             //Console.ReadLine();
+            #endregion
 
 
+            #region soru-3
             //3) Dizinin tüm elemanlarının ilk harfini sil ve başka bir diziye at.
             //string[] newNames = new string[6];
 
@@ -85,7 +89,10 @@ namespace HelloCSharp
             //    newNames[i] = isimler[i].Substring(1);
             //}
 
+            #endregion
 
+
+            #region soru-4
             //4) Dizide M harfi ile başlayan kaç adet isim var ?
 
             //int sayac = 0;
@@ -104,8 +111,10 @@ namespace HelloCSharp
 
             //Console.WriteLine(sayac);
             //Console.ReadLine();
+            #endregion
 
 
+            #region soru-diğer
             //Dizideki elemanları bir döngü ile gez. Daha sonra her bir elemanın ilk 4 harfini ekrana yazdır.
 
             //for (int i = 0; i < isimler.Length; i++)
@@ -123,6 +132,8 @@ namespace HelloCSharp
             //}
 
             //Console.ReadLine();
+
+            #endregion
 
 
             //var name = "Çağatay";
@@ -166,6 +177,37 @@ namespace HelloCSharp
 
             //Console.WriteLine(sonuc);
             //Console.ReadLine();
+
+
+            #region string metotlar soru 5
+            //5) Dizide içerisinde 2 adet a harfi geçen KAÇ eleman var ?
+
+            int total = 0;
+            for (int i = 0; i < isimler.Length; i++)
+            {
+                int aCount = 0;
+                for (int j = 0; j < isimler[i].Length; j++)
+                {
+                    if (isimler[i][j].ToString().ToLower() == "a")
+                    {
+                        aCount++;
+                    }
+
+                }
+                if (aCount == 2)
+                {
+                    total++;
+                }
+            }
+
+
+
+            Console.WriteLine("2 adet a harfi iceren " + total + " oge var");
+            Console.ReadLine();
+
+            #endregion
+
+
         }
 
     }

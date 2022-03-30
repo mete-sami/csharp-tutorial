@@ -1,5 +1,23 @@
 ﻿
+string[] isimler = new string[7];
+            isimler[0] = "Çağatay";
+            isimler[1] = "Şivan";
+            isimler[2] = "Emre";
+            isimler[3] = "Dilek";
+            isimler[4] = "Abdullah";
+            isimler[5] = "Mehmet";
+            isimler[6] = "Ece";
+
 1) Dizinin tüm elemanlarını büyült ve başka bir diziye at.
 2) Dizide 4 harf veya altında kaç isim var?
 3) Dizinin tüm elemanlarının ilk harfini sil ve başka bir diziye at.
 4) Dizide M harfi ile başlayan kaç adet isim var?
+
+
+
+5) Dizide içerisinde 2 adet a harfi geçen KAÇ eleman var?
+6) Dizinin tüm elemanlarının sadece son harflerini başka bir diziye at.
+7) Dizinin elemanlarından son harfi e olan kaç eleman var?
+8) Tüm dizi elemanlarını 10 karaktere tamamla. Örneğin Ece kelimesinin kalan 7 karakterine * koyarak Ece******* şeklinde yazıp yeni bir diziye elemanları ata
+9) **** "+90 543 733 14 70" metnini string metotlar kullanarak (543)7331470 olarak yaz.
+10) Dizideki tüm elemanları alıp yanına virgül koyacak şekilde bir metne dönüştür. Örneğin ("Çağatay, Şivan, Emre, Dilek") gibi
