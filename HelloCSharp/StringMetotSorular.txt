@@ -21,3 +21,5 @@ string[] isimler = new string[7];
 8) Tüm dizi elemanlarını 10 karaktere tamamla. Örneğin Ece kelimesinin kalan 7 karakterine * koyarak Ece******* şeklinde yazıp yeni bir diziye elemanları ata
 9) **** "+90 543 733 14 70" metnini string metotlar kullanarak (543)7331470 olarak yaz.
 10) Dizideki tüm elemanları alıp yanına virgül koyacak şekilde bir metne dönüştür. Örneğin ("Çağatay, Şivan, Emre, Dilek") gibi
+11) Dizinin elemanlarındaki SADECE a harflerini büyültüp elemanları başka bir diziye ata
+12) 
