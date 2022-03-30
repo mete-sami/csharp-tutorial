@@ -1,0 +1,5 @@
+﻿
+1) Dizinin tüm elemanlarını büyült ve başka bir diziye at.
+2) Dizide 4 harf veya altında kaç isim var?
+3) Dizinin tüm elemanlarının ilk harfini sil ve başka bir diziye at.
+4) Dizide M harfi ile başlayan kaç adet isim var?

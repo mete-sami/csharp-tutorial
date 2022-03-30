@@ -8,80 +8,165 @@ namespace HelloCSharp
         static void Main(string[] args)
         {
 
-            string name = "Çağatay";
+            //Dışarıdan aldığı kelimenin sayısını bana veren uyguluma
 
-            //name değerindeki harflerin tamamını büyült ve başka bir değere ata!
-            string upperName = name.ToUpper();
+            //Console.WriteLine("Lütfen bir metin giriniz");
+            //string data = Console.ReadLine();
 
+            //Console.WriteLine(data.Length);
+            //Console.ReadLine();
 
-            string city = "İZMİR";
-            string lowerCity = city.ToLower();
+            //Dışarıdan girilen metindeki sağ ve sol boşluklar hariç kaç karakter var?
+            //data = data.Trim();
 
+            //Console.WriteLine(data.Length);
 
-            string metalBands = "Iron Maiden, In Flames, Gojira, Rotting Christ";
-            //Virgülle ayrılan metal gruplarını bir diziye at.
+            //Dışarıdan girilen metindeki a harfi HARİÇ kaç karakter var? Örneğin Çağatay kelimesini girerse 4 yazacak.
 
-            string[] metalBandsArray = metalBands.Split(',');
+            //string newData = data.Replace("a", "");
+            //Console.WriteLine(newData.Length);
 
+            //2. yol
+            //int sayac = 0;
+            //for (int i = 0; i < data.Length; i++)
+            //{
+            //    if (data[i] != 'a')
+            //    {
+            //        sayac++;
+            //    }
+            //}
 
-            //Aşağıdaki metinde ı karakterlerini i ile değiştir
-            string metin = "Çağatay Yıldız";
-            string sonuc = metin.Replace("ı", "i");
+            //Console.WriteLine(sayac);
+            //Console.ReadLine();
 
-
-            //Aşağıdaki metinde a karakterini yok et!
-            string metin2 = "Çağatay Yıldız";
-            string sonuc2 = metin2.Replace("a", "");
-
-
-            //Aşağıdaki metinde ilk a karakterini bul ve yerini bana söyle!!
-            string metin3 = "Çağatay Yıldız";
-
-            //Index of metodu ile karakterin metindeki ilk yerini bulabiliyorum!
-            int indexNo = metin3.IndexOf('a');
-
-            //Yukarıdaki metin3 isimli değerde a karakterinin son indexini bul ve bana söyle!
-
-            int indexNo2 = metin3.LastIndexOf('a');
-
-
-            //Aşağıdaki metinde kaç karakter var?
-            string country = "Türkiye";
-            int countryLength = country.Length;
-
-
-            //Trim End ile boşlukları temizliyoruz
-            string book = "Zaman Makinası      ";
-            string bookSonuc = book.TrimEnd();
-
-            //SubString
-            string company = "Siemens Teknoloji";
-            int indexNoCompany = company.IndexOf("Teknoloji");
-
-            string companySonuc = company.Substring(0, 7);
-
-
-            //Kullanıcı dışarıdan bir telefon numarası girecek. Girdiği telefon numarası formatı "+905437331470" şeklinde olacak. Ben bu formatı 5437331470 şekline çevirip ekrana yaz.
-
-
-            Console.WriteLine("Bir telefon numarası giriniz!");
-            string phoneNumber = Console.ReadLine();
-
-            //string newNumber = phoneNumber.Substring(3);
-            //string newNumber = phoneNumber.Replace("+90", "");
-            int phoneStartNumber = phoneNumber.IndexOf("+90") + 3;
-            string newNumber = phoneNumber.Substring(phoneStartNumber);
+            string[] isimler = new string[7];
+            isimler[0] = "Çağatay";
+            isimler[1] = "Şivan";
+            isimler[2] = "Emre";
+            isimler[3] = "Dilek";
+            isimler[4] = "Abdullah";
+            isimler[5] = "Mehmet";
+            isimler[6] = "Ece";
 
 
 
 
-            Console.WriteLine(newNumber);
-            Console.ReadLine();
+            //1) Dizinin tüm elemanlarını büyült ve başka bir diziye at.
+            //string[] newNames = new string[6];
+
+            //for (int i = 0; i < isimler.Length; i++)
+            //{
+            //    newNames[i] = isimler[i].ToUpper();
+            //}
 
 
+
+            //2) Dizide 4 harf veya altında kaç isim var?
+
+            //int sayac = 0;
+
+            //for (int i = 0; i < isimler.Length; i++)
+            //{
+            //   if(isimler[i].Length <= 4)
+            //    {
+            //        sayac++;
+            //    }
+            //}
+
+            //Console.WriteLine(sayac);
+            //Console.ReadLine();
+
+
+            //3) Dizinin tüm elemanlarının ilk harfini sil ve başka bir diziye at.
+            //string[] newNames = new string[6];
+
+            //for (int i = 0; i < isimler.Length; i++)
+            //{
+            //    newNames[i] = isimler[i].Substring(1);
+            //}
+
+
+            //4) Dizide M harfi ile başlayan kaç adet isim var ?
+
+            //int sayac = 0;
+            //for (int i = 0; i < isimler.Length; i++)
+            //{
+            //    //if(isimler[i].ToLower()[0] == 'm')
+            //    //{
+            //    //    sayac++;
+            //    //}
+
+            //    if (isimler[i].ToLower().StartsWith('m'))
+            //    {
+            //        sayac++;
+            //    }
+            //}
+
+            //Console.WriteLine(sayac);
+            //Console.ReadLine();
+
+
+            //Dizideki elemanları bir döngü ile gez. Daha sonra her bir elemanın ilk 4 harfini ekrana yazdır.
+
+            //for (int i = 0; i < isimler.Length; i++)
+            //{
+            //    if(isimler[i].Length < 4)
+            //    {
+            //        Console.WriteLine(isimler[i]);
+
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(isimler[i].Substring(0, 4));
+            //    }
+
+            //}
+
+            //Console.ReadLine();
+
+
+            //var name = "Çağatay";
+            //var year = 2022;
+            //var onlineStatus = false;
+
+            //foreach (var item in isimler)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            //Console.ReadLine();
+
+            //Aşağıdaki metni bir harfi küçük bir harfi büyük olacak şekilde ekrana yazdır.
+
+            //string fullName = "Çağatay Yıldız";
+            //string resultFullName = "";
+
+            //for (int i = 0; i < fullName.Length; i++)
+            //{
+
+            //    if (i % 2 == 0)
+            //    {
+            //        resultFullName = resultFullName + fullName[i].ToString().ToUpper();
+            //    }
+            //    else
+            //    {
+            //        resultFullName = resultFullName + fullName[i].ToString().ToLower();
+            //    }
+
+            //}
+
+
+            //Console.WriteLine(resultFullName);
+            //Console.ReadLine();
+
+            //int x = 5;
+            //int y = 10;
+
+            //string sonuc = x.ToString() + y.ToString();
+
+            //Console.WriteLine(sonuc);
+            //Console.ReadLine();
         }
-
-       
 
     }
 }
