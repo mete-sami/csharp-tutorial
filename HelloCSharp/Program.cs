@@ -63,11 +63,19 @@ namespace HelloCSharp
 
             //Kullanıcı dışarıdan bir telefon numarası girecek. Girdiği telefon numarası formatı "+905437331470" şeklinde olacak. Ben bu formatı 5437331470 şekline çevirip ekrana yaz.
 
-         
 
-            
+            Console.WriteLine("Bir telefon numarası giriniz!");
+            string phoneNumber = Console.ReadLine();
 
-            Console.WriteLine(indexNoCompany);
+            //string newNumber = phoneNumber.Substring(3);
+            //string newNumber = phoneNumber.Replace("+90", "");
+            int phoneStartNumber = phoneNumber.IndexOf("+90") + 3;
+            string newNumber = phoneNumber.Substring(phoneStartNumber);
+
+
+
+
+            Console.WriteLine(newNumber);
             Console.ReadLine();
 
 
