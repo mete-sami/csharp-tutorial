@@ -182,32 +182,76 @@ namespace HelloCSharp
             #region string metotlar soru 5
             //5) Dizide içerisinde 2 adet a harfi geçen KAÇ eleman var ?
 
-            int total = 0;
-            for (int i = 0; i < isimler.Length; i++)
-            {
-                int aCount = 0;
-                for (int j = 0; j < isimler[i].Length; j++)
-                {
-                    if (isimler[i][j].ToString().ToLower() == "a")
-                    {
-                        aCount++;
-                    }
+            //int total = 0;
+            //for (int i = 0; i < isimler.Length; i++)
+            //{
+            //    int aCount = 0;
+            //    for (int j = 0; j < isimler[i].Length; j++)
+            //    {
+            //        if (isimler[i][j].ToString().ToLower() == "a")
+            //        {
+            //            aCount++;
+            //        }
 
-                }
-                if (aCount == 2)
-                {
-                    total++;
-                }
-            }
+            //    }
+            //    if (aCount == 2)
+            //    {
+            //        total++;
+            //    }
+            //}
 
 
 
-            Console.WriteLine("2 adet a harfi iceren " + total + " oge var");
-            Console.ReadLine();
+            //Console.WriteLine("2 adet a harfi iceren " + total + " oge var");
+            //Console.ReadLine();
 
             #endregion
 
 
+            #region soru-11
+            // 11) Dizinin elemanlarındaki SADECE a harflerini büyültüp elemanları başka bir diziye ata
+
+            //string[] newNameArray = new string[7];
+
+            //for (int i = 0; i < isimler.Length; i++)
+            //{
+            //    newNameArray[i] = isimler[i].Replace("a", "A");
+            //}
+
+
+
+            #endregion
+
+
+            //19) Kullanıcı dışarıdan bir sayı girecek o sayı ekranda oluşacak üçgenin TABANI olacak.
+
+            Console.WriteLine("Lütfen bir sayı giriniz");
+            int sayi = Convert.ToInt32(Console.ReadLine());
+            int sayi2 = sayi;
+
+            for (int i = 0; i < sayi; i++)
+            {
+
+
+                for (int j = 0; j < sayi2 - 1; j++)
+                {
+                    Console.Write(" ");
+                }
+
+                sayi2--;
+
+                for (int k = 0; k < i; k++)
+                {
+                    Console.Write("* ");
+                }
+
+                Console.Write("\n");
+               
+            }
+
+            Console.ReadLine();
+
+            
         }
 
     }

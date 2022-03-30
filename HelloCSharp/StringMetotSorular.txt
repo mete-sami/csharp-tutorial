@@ -22,4 +22,3 @@ string[] isimler = new string[7];
 9) **** "+90 543 733 14 70" metnini string metotlar kullanarak (543)7331470 olarak yaz.
 10) Dizideki tüm elemanları alıp yanına virgül koyacak şekilde bir metne dönüştür. Örneğin ("Çağatay, Şivan, Emre, Dilek") gibi
 11) Dizinin elemanlarındaki SADECE a harflerini büyültüp elemanları başka bir diziye ata
-12) 
