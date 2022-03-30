@@ -39,6 +39,9 @@
   * * *
 * * * * *
 
+20) 5 elemanlı bir isim dizisi oluştur. For la dizide dön. Ekrana sadece elemanın ilk harfini yazdır.
+
+
 * .Net Framework Nedir?
 * .Net Core Nedir?
 * Convert ve ParseInt arasındaki fark nedir?
