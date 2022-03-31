@@ -1,11 +1,14 @@
-﻿{
-  "ConnectionStrings": {
-    "DefaultConnection": "DataSource=app.db"
-  },
-  "Logging": {
-    "LogLevel": {
-      "Default": "Warning"
-    }
-  },
-  "AllowedHosts": "*"
-}
+﻿1) Dışarıdan bir metin alan aldığı değerdeki karakter sayısını dönen metot
+2) Dışardan iki metin alan aldığı metinleri BÜYÜTÜP aralarında bir boşluk bırakarak dönen metot
+3) Dışarıdan bir metin alan ve aldığı metinde kaç adet "a" harfi olduğunu söyleyen metot
+4) Dışarıdan bir metin alan aldığı metnin sadece ilk harfini büyük diğer harflerini küçük yazacak şekilde yeni bir metin oluşturarak dönen metot. çağatay - Çağatay
+5) Dışarıdan iki metin alan aldığı metinlerin ilk harflerini büyültüp diğer harflerini küçülten ve aralarında boşluk bırakarak bir metin halinde return eden metot
+6) Dışarıdan bir metin alan aldığı metnin sadece ilk üç harfini döndüren metot. Uyarı: Metin 2 harfliyse sadece iki harfini döndürsün. Sistem hata vermemeli
+
+
+
+7) Dışarıdan iki sayı alan, aldığı sayıların KARELERİNİN toplamını dönen metot
+8) Dışarıdan üç sayı alan ve bu sayılardan en büyüğünü döndüren metot
+9) Dışarıdan bir sayı alan aldığı sayı tekse "TEK SAYI" değilse "ÇİFT SAYI" şeklinde metin return eden metot
+10) Dışarıdan aldığı metni ikili harfler şeklinde string dizi olarak döndüren metot. Örneğin “Machine Head" metnin “Ma”,”ch”,”in” gibi..
+11) Dışarıdan aldığı metni char[] dizisi şeklinde harflerini döndüren metot
