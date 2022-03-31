@@ -13,3 +13,9 @@
 13) Dışarıdan aldığı yarıçapla dairenin alanını hesaplayan metot
 14) Dışarıdan aldığı 2 ismi aralarında boşluk bırakacak şekilde console a yazdıran metot.
 15) Dışarıdan bir sayı alan ve bu sayıya göre kare çizen metot.
+
+16) Dışarıdan bir isim dizisi alan ve isimleri tek tek console a yazdıran metot
+17) Dışarıdan bir isim dizisi alan, ismin uzunluğu 4 den büyükse console a yazdıran metot
+18) Dışarıdan iki tane ayrı isim dizisi alan ve bu dizileri birleştirip tek dizi olarak bana dönen metot
+19) Dışarıdan bir int sayı alan ve bu sayıya kadar 3 e bölünebilen sayıları ekrana yazan metot. Örneğin dışarıdan 20 aldıysa "3", "6", "9" şeklinde ekrana yazacak
+20) Dışarıdan aldığı Celcius( derece ) yi Fahrenayta çevirip bana veren metot
