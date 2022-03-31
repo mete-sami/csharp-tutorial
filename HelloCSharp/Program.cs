@@ -8,156 +8,162 @@ namespace HelloCSharp
         static void Main(string[] args)
         {
 
-            string name = "Siemens";
 
-            //ToUpper ve ToLower metotları geriye string döndüğü için bir string değere atayabiliyoruz.
-            string newName =  name.ToUpper();
+            #region soru-1
+            // 1) Dışarıdan bir metin alan aldığı değerdeki karakter sayısını dönen metot
 
-            string newName2 = name.ToLower();
-
-            string newName3 = name.Trim();
-
-            string newName4 = name.Substring(1);
-
-            string newName5 = name.Substring(1, 3);
-
-
-            #region Metot-1
-
-            //string data = Hello();
-
-            //Console.WriteLine(data);
-            //Console.ReadLine();
-
-            //Geriye string dönen dışarıdan bir parametre almayan bir metot yaz
-            string Hello()
+            int getCharCount(string data)
             {
-                return "Siemens!";
+                int length = data.Length;
+                return length;
             }
 
             #endregion
 
-            #region metot-2
-            //string data = Birlestir("Çağatay", "Yıldız");
 
-            //Console.WriteLine(data);
-            //Console.ReadLine();
 
-            ////Dışarıdan iki string parametre alan ve aldığı parametreleri aralarında boşluk bırakarak string dönen bir metot yaz.
 
-            //string Birlestir(string name, string surname)
-            //{
-            //    return name + " " + surname;
-            //}
+            #region soru-2
+
+            //2) Dışardan iki metin alan aldığı metinleri BÜYÜTÜP aralarında bir boşluk bırakarak dönen metot
+            string wordConcat(string x, string y)
+            {
+                string result = x.ToUpper() + " " + y.ToUpper();
+
+                return result;
+            }
             #endregion
 
-            #region metot-3
-            ////Dışarıdan int bir değer alan ve aldığı değerin karesini bana return eden bir metot yaz
+            #region soru-3
+            //3) Dışarıdan bir metin alan ve aldığı metinde kaç adet "a" harfi olduğunu söyleyen metot
 
-            //int KareHesapla(int x)
+            //int calcA(string word)
             //{
-            //    return x * x;
-            //}
-
-            //int sonuc = KareHesapla(12);
-
-            //Console.Write(sonuc);
-            //Console.Read();
-            #endregion
-
-            #region metot-4
-
-            //Dışarıdan 3 tane int sayı alan ve bu aldığı sayıların ORTALAMASINI bana döndüren metot
-
-            //double Ortalama(int x, int y, int z)
-            //{
-            //    double sonuc = (x + y + z) / 3.0;
-
-            //    return sonuc;
-            //}
-
-            //double data = Ortalama(2, 5, 10);
-
-            //Console.WriteLine(data);
-            //Console.ReadLine();
-
-            #endregion
-
-            #region metot-5
-            //Dışarıdan bir string dizi ALAN ve aldığı dizideki eleman sayısını bana DÖNDÜREN metot
-            //int getArrayLength(string[] isimler)
-            //{
-            //    int length = isimler.Length;
-
-            //    return length;
-            //}
-
-            //string[] isimler = { "Çağatay", "Sami", "Burak" };
-
-            //int sonuc = getArrayLength(isimler);
-
-            //Console.WriteLine(sonuc);
-            //Console.Read();
-            #endregion
-
-            #region metot-6
-            //Dışarıdan string bir dizi alan ve dizinin içerisinde KAÇ elemanda "a" harfi geçtiğini bana söyleyen metot
-
-            //int getArrayCountByA(string[] isimler)
-            //{
-
             //    int sayac = 0;
 
-            //    foreach (var item in isimler)
-            //    {
+            //    string newWord = word.ToLower();
 
-            //        if (item.Contains("a"))
+            //    foreach (var item in newWord)
+            //    {
+            //        if(item == 'a')
             //        {
             //            sayac++;
             //        }
-
             //    }
 
             //    return sayac;
-
             //}
 
-            //string[] isimler = { "Çağatay", "Sami", "Burak", "Yunus" };
-
-            //int aLength = getArrayCountByA(isimler);
-
-            //Console.WriteLine(aLength);
-            //Console.Read();
-            #endregion
-
-
-            #region metot-7
-            //Dışarıdan bir fiyat alan ve aldığı fiyatın KDV li halini bana return eden metot. FİYAT 200 den büyükse KDV %18 den hesaplanacak değilse %8 den hesaplanacak
-
-            //double KDVCalc(double fiyat)
-            //{
-            //    double sonuc;
-
-            //    if (fiyat > 200)
-            //    {
-            //        sonuc = fiyat * 1.18;
-            //    }
-            //    else
-            //    {
-            //        sonuc = fiyat * 1.08;
-            //    }
-
-            //    return sonuc;
-            //}
-
-            //double data =  KDVCalc(220);
-
-            //Console.WriteLine(data);
+            //int result = calcA("ÇAğAtay");
+            //Console.Write(result);
             //Console.Read();
 
             #endregion
 
 
+            #region soru-4
+            //4) Dışarıdan bir metin alan aldığı metnin sadece ilk harfini büyük diğer harflerini küçük yazacak şekilde yeni bir metin oluşturarak dönen metot. çağatay - Çağatay
+
+            string nameCalc(string word)
+            {
+                string result = word.Substring(0, 1).ToUpper() + word.Substring(1).ToLower();
+                return result;
+            }
+
+
+
+            #endregion
+
+            #region soru-5
+            //5) Dışarıdan iki metin alan aldığı metinlerin ilk harflerini büyültüp diğer harflerini küçülten ve aralarında boşluk bırakarak bir metin halinde return eden metot
+
+            string fullNameCalc(string x, string y)
+            {
+                string result = nameCalc(x) + " " + nameCalc(y);
+                return result;
+            }
+
+
+
+            #endregion
+
+
+            #region soru-6
+            //6) Dışarıdan bir metin alan aldığı metnin sadece ilk üç harfini döndüren metot. Uyarı: Metin 2 harfliyse sadece iki harfini döndürsün.Sistem hata vermemeli
+
+            string wordCalcThree(string word)
+            {
+                string result = "";
+
+                if (word.Length >= 3)
+                {
+                    result = word.Substring(0, 3).ToLower();
+                }
+                else
+                {
+                    result = word.ToLower();
+                }
+
+                return result;
+            }
+
+            #endregion
+
+
+
+            #region soru-10
+            //10) Dışarıdan aldığı metni ikili harfler şeklinde string dizi olarak döndüren metot.Örneğin “Machine Head" metnin “Ma”,”ch”,”in” gibi..
+
+            string[] calcArrayByWord(string word)
+            {
+                int arrayLength = 0;
+
+                if (word.Length % 2 == 0)
+                {
+                    arrayLength = word.Length / 2;
+                }
+                else
+                {
+                    arrayLength = (word.Length / 2) + 1;
+                }
+
+                string[] nameArray = new string[arrayLength];
+
+                int sayac = 0;
+                for (int i = 0; i < word.Length; i = i +2)
+                {
+                    //Döngü son kez dönüyorsa VE tek sayıysa dizinin son elemanı bir harf olacak
+                    if (word.Length % 2 == 1 && i == word.Length - 1)
+                    {
+                        nameArray[sayac] = word.Substring(i, 1);
+                    }
+                    else
+                    {
+                        nameArray[sayac] = word.Substring(i, 2);
+                    }
+                    
+                  
+                    sayac++;
+                   
+                }
+
+                return null;
+
+            }
+
+            calcArrayByWord("Çağatay");
+
+
+
+            #endregion
+
+
+
+            //7) Dışarıdan iki sayı alan, aldığı sayıların KARELERİNİN toplamını dönen metot
+            //8) Dışarıdan üç sayı alan ve bu sayılardan en büyüğünü döndüren metot
+            //9) Dışarıdan bir sayı alan aldığı sayı tekse "TEK SAYI" değilse "ÇİFT SAYI" şeklinde metin return eden metot
+
+            //11) Dışarıdan aldığı metni char[] dizisi şeklinde harflerini döndüren metot
         }
 
     }
