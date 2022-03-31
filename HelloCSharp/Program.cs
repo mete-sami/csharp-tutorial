@@ -100,34 +100,63 @@ namespace HelloCSharp
             //Console.Read();
             #endregion
 
-
+            #region metot-6
             //Dışarıdan string bir dizi alan ve dizinin içerisinde KAÇ elemanda "a" harfi geçtiğini bana söyleyen metot
 
-            int getArrayCountByA(string[] isimler)
-            {
+            //int getArrayCountByA(string[] isimler)
+            //{
 
-                int sayac = 0;
+            //    int sayac = 0;
 
-                foreach (var item in isimler)
-                {
+            //    foreach (var item in isimler)
+            //    {
 
-                    if (item.Contains("a"))
-                    {
-                        sayac++;
-                    }
+            //        if (item.Contains("a"))
+            //        {
+            //            sayac++;
+            //        }
 
-                }
+            //    }
 
-                return sayac;
+            //    return sayac;
 
-            }
+            //}
 
-            string[] isimler = { "Çağatay", "Sami", "Burak", "Yunus" };
+            //string[] isimler = { "Çağatay", "Sami", "Burak", "Yunus" };
 
-            int aLength = getArrayCountByA(isimler);
+            //int aLength = getArrayCountByA(isimler);
 
-            Console.WriteLine(aLength);
-            Console.Read();
+            //Console.WriteLine(aLength);
+            //Console.Read();
+            #endregion
+
+
+            #region metot-7
+            //Dışarıdan bir fiyat alan ve aldığı fiyatın KDV li halini bana return eden metot. FİYAT 200 den büyükse KDV %18 den hesaplanacak değilse %8 den hesaplanacak
+
+            //double KDVCalc(double fiyat)
+            //{
+            //    double sonuc;
+
+            //    if (fiyat > 200)
+            //    {
+            //        sonuc = fiyat * 1.18;
+            //    }
+            //    else
+            //    {
+            //        sonuc = fiyat * 1.08;
+            //    }
+
+            //    return sonuc;
+            //}
+
+            //double data =  KDVCalc(220);
+
+            //Console.WriteLine(data);
+            //Console.Read();
+
+            #endregion
+
 
         }
 
