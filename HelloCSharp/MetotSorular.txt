@@ -9,3 +9,7 @@
 9) Dışarıdan bir sayı alan aldığı sayı tekse "TEK SAYI" değilse "ÇİFT SAYI" şeklinde metin return eden metot
 10) Dışarıdan aldığı metni ikili harfler şeklinde string dizi olarak döndüren metot. Örneğin “Machine Head" metnin “Ma”,”ch”,”in” gibi..
 11) Dışarıdan aldığı metni char[] dizisi şeklinde harflerini döndüren metot
+12) Dışarıdan aldığı yarıçapla çemberin uzunluğunu hesaplayan metot.
+13) Dışarıdan aldığı yarıçapla dairenin alanını hesaplayan metot
+14) Dışarıdan aldığı 2 ismi aralarında boşluk bırakacak şekilde console a yazdıran metot.
+15) Dışarıdan bir sayı alan ve bu sayıya göre kare çizen metot.
